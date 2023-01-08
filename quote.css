@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.quote-container h2 {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.quote-container h4 {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: purple;
+}
+
+.quote-container p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.quote-container h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.quote-container button {
+  font-size: 2rem;
+  background: purple;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
